@@ -1,0 +1,119 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #444;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Post List */
+.post {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post h2 {
+    font-size: 24px;
+    color: #222;
+}
+
+.post p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Single Post */
+.post-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
